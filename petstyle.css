@@ -1,0 +1,67 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(imagemfundo1.jpg);
+    background-size: contain;
+    margin-left: 0.5%;
+    /*font-size: 100%;*/
+    background-color: rgb(25, 147, 168);
+    /*margin-right: 0.5%;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.whatsapp{
+    height: 15px;
+    border-radius: 100%;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+.imagem-logo{
+    height: 55px;
+    border-radius: 100%;
+}
+.ent-dados{
+    border-radius: 5px;
+    text-align: center;
+    background-origin: content-box;
+}
+.p-irma {
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+    font-size: 18px;
+}
+.dados{
+    font-weight: 600;
+    color: rgb(12, 19, 12);
+    font-size: 22px; 
+}
+a{
+    color: black;
+}
+.ent-dados[type="text"], .ent-dados[type="tel"]{
+    box-shadow: 2px 2px 2px rgb(112, 243, 167);
+    padding: 0.2em;
+    border: 1px, solid, rgb(10, 56, 54)
+}
+fieldset .ent-dados{
+    box-sizing: border-box;
+}
+.animal, .pet{
+    border-radius: 5px;
+    text-align: center;
+    background-origin: content-box;
+}

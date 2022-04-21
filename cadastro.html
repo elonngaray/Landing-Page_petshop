@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina para cadastro de cliente PetShop">
+    <link rel="stylesheet" type="text/css" href="petstyle.css">
+    <title>Pet Shop</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <img class="imagem-logo" src="imagemHedear.jpg" alt="logo da PetShop">
+        <tt></tt><tt></tt><tt></tt><tt></tt><tt></tt>
+        <a class="p-irma" href="index.html">Home</a>
+        <a class="p-irma" href="cadastro.html">Cadastro</a>
+        <a class="p-irma" href="Agendamento.html">Agendamento</a>
+        <a class="p-irma">Planos de fidelidade</a>
+        <a class="p-irma">Serviços</a>
+    </header>
+    <main>
+        <label class="dados">Nome</label>
+        <input class="ent-dados" type="text" name="nome" id="nome">
+        <label class="dados">Nome do Pet</label>
+        <input class="ent-dados" type="text" name="nomepet" id="nomepet"><br>
+        <label class="dados">Telefone</label>
+        <input class="ent-dados" type="tel" name="telefone" id="telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <label class="dados">WhatsApp <img src="whatsapp.jpg" class="whatsapp"></img></label>
+        <input class="ent-dados" type="tel" name="telefone" id="telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <label class="dados" for="animal">Pet</label>
+        <select class="animal" name="animal" id="animal">
+            <option selected disabled value="">Selecione</option>
+            <option value="animal">Aves</option>
+            <option value="animal">Cachorro</option>
+            <option value="animal">Gato</option>
+            <option value="animal">Roedores</option>
+        </select>
+        <label class="dados" for="pet">Raça</label>
+            <select class="pet" name="pet" id="pet">
+                <option selected disabled value="">selrcione uma Raça</option>
+                <optgroup label="Raças de Aves">
+                    <option value="Papagaio">Papagaio</option>
+                    <Option value="Periquito">Periquito</Option>
+                </optgroup>
+                <optgroup label="Raças de Cachorros">
+                    <option value="Buldog">Buldog</option>
+                    <option value="Filla Brasileiro">Fila Brasileiro</option>
+                </optgroup>
+                <optgroup label="Raças de Gatos">
+                    <option value="Siames">Siames</option>
+                    <option value="Perssa">Perssa</option>
+                </optgroup>
+                <optgroup label="Raças de Roedores">
+                    <option value="Porquinho da India">Porquinho da India</option>
+                    <option value="Ramister">Ramister</option>
+                </optgroup>
+            </select>
+    </main>
+    <futer>
+        <table>
+            <tr>
+                <td><a class="p-irma" href="index.html">Home</a>
+                    <a class="p-irma" href="cadastro.html">Cadastro</a>
+                    <a class="p-irma" href="Agendamento.html">Agendamento</a>
+                    <a class="p-irma">Planos de fidelidade</a>
+                    <a class="p-irma">Serviços</a></td>
+            </tr>
+        </table>
+    </futer>
+</body>
+</html>
